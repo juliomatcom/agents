@@ -1,2 +1,2 @@
 # Agents
-A collection of agents
+A collection of useful agents for VSCode
