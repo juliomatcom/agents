@@ -1,1 +1,2 @@
-# agents
+# Agents
+A collection of agents
