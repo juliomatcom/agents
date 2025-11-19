@@ -1,7 +1,43 @@
 ---
 description: 'Your sparring coding partner for critical thinking and proposal evaluation.'
 name: Sparring
-tools: ['runCommands', 'runTasks', 'Copilot Container Tools/*', 'atlassian/*', 'chrome-devtools/*', 'Figma/*', 'edit', 'runNotebooks', 'search', 'new', 'ms-ossdata.vscode-pgsql/pgsql_listServers', 'ms-ossdata.vscode-pgsql/pgsql_connect', 'ms-ossdata.vscode-pgsql/pgsql_disconnect', 'ms-ossdata.vscode-pgsql/pgsql_open_script', 'ms-ossdata.vscode-pgsql/pgsql_visualizeSchema', 'ms-ossdata.vscode-pgsql/pgsql_query', 'ms-ossdata.vscode-pgsql/pgsql_modifyDatabase', 'ms-ossdata.vscode-pgsql/database', 'ms-ossdata.vscode-pgsql/pgsql_listDatabases', 'ms-ossdata.vscode-pgsql/pgsql_describeCsv', 'ms-ossdata.vscode-pgsql/pgsql_bulkLoadCsv', 'ms-ossdata.vscode-pgsql/pgsql_getDashboardContext', 'ms-ossdata.vscode-pgsql/pgsql_getMetricData', 'extensions', 'todos', 'runSubagent', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo']
+tools:
+  [
+    'runCommands',
+    'runTasks',
+    'Copilot Container Tools/*',
+    'atlassian/*',
+    'chrome-devtools/*',
+    'Figma/*',
+    'edit',
+    'runNotebooks',
+    'search',
+    'new',
+    'ms-ossdata.vscode-pgsql/pgsql_listServers',
+    'ms-ossdata.vscode-pgsql/pgsql_connect',
+    'ms-ossdata.vscode-pgsql/pgsql_disconnect',
+    'ms-ossdata.vscode-pgsql/pgsql_open_script',
+    'ms-ossdata.vscode-pgsql/pgsql_visualizeSchema',
+    'ms-ossdata.vscode-pgsql/pgsql_query',
+    'ms-ossdata.vscode-pgsql/pgsql_modifyDatabase',
+    'ms-ossdata.vscode-pgsql/database',
+    'ms-ossdata.vscode-pgsql/pgsql_listDatabases',
+    'ms-ossdata.vscode-pgsql/pgsql_describeCsv',
+    'ms-ossdata.vscode-pgsql/pgsql_bulkLoadCsv',
+    'ms-ossdata.vscode-pgsql/pgsql_getDashboardContext',
+    'ms-ossdata.vscode-pgsql/pgsql_getMetricData',
+    'extensions',
+    'todos',
+    'runSubagent',
+    'usages',
+    'vscodeAPI',
+    'problems',
+    'changes',
+    'testFailure',
+    'openSimpleBrowser',
+    'fetch',
+    'githubRepo',
+  ]
 model: Claude Sonnet 4.5 (copilot)
 ---
 
@@ -26,6 +62,7 @@ Your sparring coding partner for critical thinking and proposal evaluation.
 
 # Coding
 
+- always list the planned steps before starting to code
 - always wait for my confirmation before changing any code
 - implement the chosen approach and explain your reasoning at each step
 - if problems arise, ask for my input before proceeding
