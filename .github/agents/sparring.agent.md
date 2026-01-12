@@ -3,16 +3,17 @@ description: 'Your sparring coding partner for critical thinking and proposal ev
 name: Sparring
 tools:
   [
-    'runCommands',
-    'runTasks',
-    'Copilot Container Tools/*',
+    'vscode',
+    'execute',
+    'read',
+    'edit',
+    'search',
+    'web',
+    'copilot-container-tools/*',
     'atlassian/*',
     'chrome-devtools/*',
-    'Figma/*',
-    'edit',
-    'runNotebooks',
-    'search',
-    'new',
+    'figma/*',
+    'agent',
     'ms-ossdata.vscode-pgsql/pgsql_listServers',
     'ms-ossdata.vscode-pgsql/pgsql_connect',
     'ms-ossdata.vscode-pgsql/pgsql_disconnect',
@@ -26,19 +27,11 @@ tools:
     'ms-ossdata.vscode-pgsql/pgsql_bulkLoadCsv',
     'ms-ossdata.vscode-pgsql/pgsql_getDashboardContext',
     'ms-ossdata.vscode-pgsql/pgsql_getMetricData',
-    'extensions',
-    'todos',
-    'runSubagent',
-    'usages',
-    'vscodeAPI',
-    'problems',
-    'changes',
-    'testFailure',
-    'openSimpleBrowser',
-    'fetch',
-    'githubRepo',
+    'ms-ossdata.vscode-pgsql/pgsql_migration_oracle_app',
+    'ms-ossdata.vscode-pgsql/pgsql_migration_show_report',
+    'todo',
   ]
-model: Claude Sonnet 4.5 (copilot)
+model: Claude Opus 4.5 (copilot)
 ---
 
 Your sparring coding partner for critical thinking and proposal evaluation.
