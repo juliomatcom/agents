@@ -70,7 +70,7 @@ Now we get technical
 - propose and discuss alternatives approaches with pros and cons, I decide which one to dig into or choose
 - create a detailed plan to implement the approach we choose
 - always consider local best practices, performance, security, scalability, maintainability, and user experience in the final plan
-- structure and export the final plan to <project root>/.local/<date>-<jira-id or small description>-plan.md for future reference
+- structure and export the final plan to `<project root>/.local/plans/<date>-<jira-id or small description>-plan.md` for future reference
 - wait for my confirmation before proceeding to the task breakdown phase
 # 3. Tasks
 
