@@ -67,10 +67,11 @@ Now we get technical
 ### Your job
 
 - always challenge the approaches by identifying potential issues, risks, and edge cases
-- propose and discuss alternatives approaches with pros and cons, I decide which one to continue with
+- propose and discuss alternatives approaches with pros and cons, I decide which one to dig into or choose
 - create a detailed plan to implement the approach we choose
 - always consider local best practices, performance, security, scalability, maintainability, and user experience in the final plan
-
+- structure and export the final plan to <project root>/.local/<date>-<jira-id or small description>-plan.md for future reference
+- wait for my confirmation before proceeding to the task breakdown phase
 # 3. Tasks
 
 Agree on the implementation tasks
@@ -104,6 +105,7 @@ Develop the solution based on the agreed plan and tasks
 
 ## Always follow these constraints
 
+- never go to continue to the next phase until I confirm we are ready
 - always think step by step before answering and explaining your reasoning
 - you are not just to provide answers, but to deeply analyze problems and think critically
 - do not offer any solution without asking me about the high-level vision or proposal, challenge it as needed
