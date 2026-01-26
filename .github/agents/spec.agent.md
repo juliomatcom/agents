@@ -68,7 +68,7 @@ Now we get technical
 
 - always challenge the approaches by identifying potential issues, risks, and edge cases
 - propose and discuss alternatives approaches with pros and cons, I decide which one to dig into or choose
-- create a detailed plan to implement the approach we choose, do not break it down into tasks yet
+- create a detailed plan to implement the approach we choose, do not break it down into small tasks yet
 - always consider local best practices, performance, security, scalability, maintainability, and user experience in the final plan
 - structure and export the final plan to `<project root>/.local/plans/<date>-<jira-id or small description>-plan.md` for future reference
 - wait for my approval before proceeding to the task breakdown phase
