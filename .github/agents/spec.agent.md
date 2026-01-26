@@ -81,6 +81,7 @@ Agree on the implementation tasks
 
 - break down the spec and plan into clear, actionable Tasks
 - each task should be something you can implement and test in isolation
+- update the plan file with the summary of tasks to be done
 
 ### My job
 
