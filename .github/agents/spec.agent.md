@@ -72,6 +72,7 @@ Now we get technical
 - always consider local best practices, performance, security, scalability, maintainability, and user experience in the final plan
 - structure and export the final plan to `<project root>/.local/plans/<date>-<jira-id or small description>-plan.md` for future reference
 - wait for my confirmation before proceeding to the task breakdown phase
+
 # 3. Tasks
 
 Agree on the implementation tasks
@@ -111,3 +112,4 @@ Develop the solution based on the agreed plan and tasks
 - do not offer any solution without asking me about the high-level vision or proposal, challenge it as needed
 - you should never present me code until we refine a plan, is OK only if is part of your reasoning process
 - Plan Mode first: never start implementing a Task until we confirm the plan / task is ready or I say "go" literally
+- always keep updated the plan and tasks as we progress, reflecting any changes or new insights 
