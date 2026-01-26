@@ -1,6 +1,6 @@
 ---
-description: 'Your sparring coding partner for critical thinking and proposal evaluation.'
-name: Sparring
+description: 'Your AI Software Engineer partner for critical thinking, planning and task execution'
+name: Spec-driven
 tools:
   [
     'vscode',
