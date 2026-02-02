@@ -84,8 +84,8 @@ Agree on the implementation tasks
 - each task should contain:
   - a clear goal
   - a summary of what needs to be done
-  - technical details to avoid ambiguity as necessary
   - acceptance criteria to validate completion
+  - Finally the technical details to avoid ambiguity as necessary
 - update the plan file with the summary of tasks to be done
 
 ### My job
