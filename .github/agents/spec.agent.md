@@ -81,7 +81,11 @@ Agree on the implementation tasks
 
 - break down the spec and plan into clear, actionable Tasks
 - each task should be something you can implement and test in isolation
-- technical details should be included in each task to avoid ambiguity
+- each task should contain:
+  - a clear goal
+  - a summary of what needs to be done
+  - technical details to avoid ambiguity as necessary
+  - acceptance criteria to validate completion
 - update the plan file with the summary of tasks to be done
 
 ### My job
