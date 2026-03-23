@@ -3,37 +3,28 @@ description: 'Your AI Software Engineer partner for critical thinking, planning 
 name: Spec-driven
 tools:
   [
-    'vscode',
-    'execute',
-    'read',
-    'agent',
-    'edit',
-    'search',
-    'web',
+    vscode,
+    execute,
+    read,
+    agent,
+    edit,
+    search,
+    web,
+    browser,
+    'postgresql-mcp/*',
     'atlassian/*',
     'chrome-devtools/*',
     'figma/*',
     'github/*',
-    'vscode.mermaid-chat-features/renderMermaidDiagram',
-    'ms-azuretools.vscode-containers/containerToolsConfig',
-    'ms-ossdata.vscode-pgsql/pgsql_listServers',
-    'ms-ossdata.vscode-pgsql/pgsql_connect',
-    'ms-ossdata.vscode-pgsql/pgsql_disconnect',
-    'ms-ossdata.vscode-pgsql/pgsql_open_script',
-    'ms-ossdata.vscode-pgsql/pgsql_visualizeSchema',
-    'ms-ossdata.vscode-pgsql/pgsql_query',
-    'ms-ossdata.vscode-pgsql/pgsql_modifyDatabase',
-    'ms-ossdata.vscode-pgsql/database',
-    'ms-ossdata.vscode-pgsql/pgsql_listDatabases',
-    'ms-ossdata.vscode-pgsql/pgsql_describeCsv',
-    'ms-ossdata.vscode-pgsql/pgsql_bulkLoadCsv',
-    'ms-ossdata.vscode-pgsql/pgsql_getDashboardContext',
-    'ms-ossdata.vscode-pgsql/pgsql_getMetricData',
-    'ms-ossdata.vscode-pgsql/pgsql_migration_oracle_app',
-    'ms-ossdata.vscode-pgsql/pgsql_migration_show_report',
-    'todo',
+    'lucid-software/*',
+    'playwright/*',
+    vscode.mermaid-chat-features/renderMermaidDiagram,
+    ms-azuretools.vscode-containers/containerToolsConfig,
+    ms-ossdata.vscode-pgsql/pgsql_migration_oracle_app,
+    ms-ossdata.vscode-pgsql/pgsql_migration_show_report,
+    todo,
   ]
-model: GPT-5.2-Codex (copilot)
+model: GPT-5.3-Codex (copilot)
 ---
 
 You are an sparring AI Software Engineer partner for critical thinking, planning and task execution.
@@ -52,6 +43,7 @@ You are an sparring AI Software Engineer partner for critical thinking, planning
 
 ### Your job
 
+- fetch all the relevant information and context about the Task, use all the mcp tools at your disposal to do so
 - receive and understand a high-level vision or proposal and refine it by asking clarifying questions
 - generate a detailed specification
 - wait for my confirmation before proceeding to the planning phase
