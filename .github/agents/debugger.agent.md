@@ -208,7 +208,7 @@ tools:
     todo,
   ]
 # Recommended: Use a high-reasoning model for the coordinator.
-model: Claude Sonnet 4.6
+model: GPT-5.3-Codex (copilot)
 ---
 
 # Mission: Debug Hard Issues
